@@ -28,9 +28,8 @@ footer {
     background-color: deepskyblue;
     color: white;
     position: absolute;
-    bottom: 0;
     width: 100%;
-    height: 3rem;
+    height: 50px;
 }
 
 .footerP {
@@ -58,6 +57,7 @@ li {
 
 .nav {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
     padding: 3px 10%;
@@ -83,12 +83,14 @@ li {
 
 .BoxOfCards {
     display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
 }
 
-/* Add some padding inside the card container */
 .container {
     padding: 2px 16px;
     margin: 10px;
+    display: flex;
 }
 
 .card-title {
@@ -148,5 +150,6 @@ li {
 }
 
 .project-img {
-    width: 50%;
+    width: 100%;
+    margin-left: 0px;
 }

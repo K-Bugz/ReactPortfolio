@@ -2,14 +2,14 @@ import React from 'react';
 
 export default function BlogCard(props) {
   return (
-    <div class="container">
-        <div class="flip-card">
-            <div class="flip-card-inner">
-                <div class="flip-card-front">
+    <div className="container">
+        <div className="flip-card">
+            <div className="flip-card-inner">
+                <div className="flip-card-front">
                     <h2 className="card-title">Title: {props.title}</h2>
                     <h3 className="date"> {props.date}</h3>
                 </div>
-                <div class="flip-card-back">
+                <div className="flip-card-back">
                     <p>{props.des}</p>
                 </div>
             </div>
