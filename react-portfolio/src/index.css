@@ -23,6 +23,20 @@ header {
     margin-bottom: 10px;
 }
 
+footer {
+    text-align: center;
+    background-color: deepskyblue;
+    color: white;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 3rem;
+}
+
+.footerP {
+    top: 50%;
+}
+
 h1 {
     text-align: center;
     margin-bottom: 10px;
@@ -131,4 +145,8 @@ li {
     background-color: deepskyblue;
     color: white;
     transform: rotateY(180deg);
+}
+
+.project-img {
+    width: 50%;
 }

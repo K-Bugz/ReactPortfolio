@@ -1,10 +1,6 @@
 import React from 'react';
 import BlogCard from './BlogCard';
-// function Post(title, des, date) {
-//   this.title = title;
-//   this.description = des;
-//   this.date = date;
-// };
+
 
 const post1 = {
   title: 'Learning React! ',
