@@ -10,9 +10,9 @@ This is my portfolio that I used making React. I really like using React especia
 ## Author: Kevin Bugusky
 
 ## Contact Me
-**Phone/SMS**: [(737)703-8407](tel:+17377038407/)
-**Email**: [kbugusky@gmail.com](mailto:kbugusky@gmail.com)
-**GitHub**: [@K-Bugz](https://www.github.com/K-Bugz)
+**Phone/SMS**: [(737)703-8407](tel:+17377038407/) <br>
+**Email**: [kbugusky@gmail.com](mailto:kbugusky@gmail.com) <br>
+**GitHub**: [@K-Bugz](https://www.github.com/K-Bugz) <br>
 **LinkedIn**: [kevinbugusky333454](www.linkedin.com/in/kevinbugusky333454)
 
 ## License
