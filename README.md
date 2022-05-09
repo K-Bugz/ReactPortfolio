@@ -3,7 +3,6 @@ This is my portfolio that I used making React. I really like using React especia
 
 ##Deployed site: https://k-bugz.github.io/ReactPortfolio/
 
-[![MIT License](https://img.shields.io/badge/license-MIT-green?style=plastic "MIT License" )](./LICENSE)
 [![Node v16.14 ](https://img.shields.io/badge/Node%20v16.14-339933?labelColor=ffffff&style=plastic&logo=node.js&logoColor=339933 'Node.JS')](https://nodejs.org/)
 [![Made with React](https://img.shields.io/badge/React-17-blue?logo=react&logoColor=white)](https://reactjs.org "Go to React homepage")
 [![Made with JavaScript](https://img.shields.io/badge/Made_with-JavaScript-blue?logo=javascript&logoColor=white)](https://www.javascript.com/ "Go to JavaScript homepage")
