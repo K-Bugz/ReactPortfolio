@@ -46,7 +46,7 @@ const pro4 = {
   };
   const pro8 = {
     title: 'Make Dat Notes!',
-    link: "https://k-bugz.github.io/make-dat-notes/",
+    link: "https://make-dat-notes.herokuapp.com/",
     img: './images/MakeDatNote.png',
     des: 'A simple note taking app to practice queryselecting from the DOM and using some simple CRUD methods with routing. ',
   };
