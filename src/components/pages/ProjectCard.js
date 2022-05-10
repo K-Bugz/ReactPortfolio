@@ -8,7 +8,7 @@ export default function ProjectCard(props) {
                 <div className="flip-card-inner">
                     <div className="flip-card-front">
                         <h2 className="card-title">{props.title}</h2>
-                        <img className='project-img' src={props.img} alt='blah'></img>
+                        <img className='project-img' src={props.img} alt={props.title}></img>
                     </div>
                     <div className="flip-card-back">
                         <p>{props.des}</p>
