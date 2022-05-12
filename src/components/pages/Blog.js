@@ -15,19 +15,20 @@ const post2 = {
 const post3 = {
   title: 'GraphQL ',
   date: '5/10/2022',
-  des: 'Need to get to it before I can write about it!',
+  des: 'After a few days of training, I realized that I require some more studying. I find making the schemas, queires, and mutations straightforward but need more time with virtual DOM and the numerous servers. ',
 };
 
 
 export default function Blog() {
   return (
-    <div>
+    <React.Fragment>
       <h1>Blog Coding Posts</h1>
       <div className='BoxOfCards'>
-      <BlogCard title={post1.title} des={post1.des} date={post1.date}></BlogCard>
-      <BlogCard title={post2.title} des={post2.des} date={post2.date}></BlogCard>
-      <BlogCard title={post3.title} des={post3.des} date={post3.date}></BlogCard>
+      <BlogCard {...post1}></BlogCard>
+      <BlogCard {...post2}></BlogCard>
+      {/* <BlogCard title={post2.title} des={post2.des} date={post2.date}></BlogCard> */}
+      <BlogCard {...post3}></BlogCard>
       </div>
-    </div>
+    </React.Fragment>
   );
 }

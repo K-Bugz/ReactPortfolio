@@ -53,18 +53,19 @@ const pro4 = {
 
 export default function Projects() {
   return (
-    <div>
+    <React.Fragment>
       <h1>My projects!</h1>
       <div className='BoxOfCards'>
-        <ProjectCard title={pro1.title} link={pro1.link} des={pro1.des} img={pro1.img}></ProjectCard>
-        <ProjectCard title={pro2.title} link={pro2.link} des={pro2.des} img={pro2.img}></ProjectCard>
-        <ProjectCard title={pro3.title} link={pro3.link} des={pro3.des} img={pro3.img}></ProjectCard>
-        <ProjectCard title={pro4.title} link={pro4.link} des={pro4.des} img={pro4.img}></ProjectCard>
-        <ProjectCard title={pro5.title} link={pro5.link} des={pro5.des} img={pro5.img}></ProjectCard>
-        <ProjectCard title={pro6.title} link={pro6.link} des={pro6.des} img={pro6.img}></ProjectCard>
-        <ProjectCard title={pro7.title} link={pro7.link} des={pro7.des} img={pro7.img}></ProjectCard>
-        <ProjectCard title={pro8.title} link={pro8.link} des={pro8.des} img={pro8.img}></ProjectCard>
+        <ProjectCard {...pro1}></ProjectCard>
+        {/* <ProjectCard title={pro1.title} link={pro1.link} des={pro1.des} img={pro1.img}></ProjectCard> */}
+        <ProjectCard {...pro2}></ProjectCard>
+        <ProjectCard {...pro3}></ProjectCard>
+        <ProjectCard {...pro4}></ProjectCard>
+        <ProjectCard {...pro5}></ProjectCard>
+        <ProjectCard {...pro6}></ProjectCard>
+        <ProjectCard {...pro7}></ProjectCard>
+        <ProjectCard {...pro8}></ProjectCard>
       </div>
-    </div>
+    </React.Fragment>
   );
 }

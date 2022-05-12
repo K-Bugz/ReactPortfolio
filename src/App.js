@@ -25,11 +25,11 @@ const App = () => {
   const handlePageChange = (page) => setCurrentPage(page);
 
   return (
-    <div>
+    <React.Fragment>
       <NavTabs currentPage={currentPage} handlePageChange={handlePageChange} />
       {renderPage()}
       <Footer />
-    </div>
+    </React.Fragment>
   );
 }
 

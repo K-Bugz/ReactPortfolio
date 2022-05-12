@@ -2,7 +2,7 @@ import React from 'react';
 
 export default function Home() {
   return (
-    <div>
+    <React.Fragment>
       <h1>Welcome to Kevin Bugusky's Portfolio!</h1>
       <p>
       Originally from Illinois, I have made a new home here in Austin Texas. I enjoy coding, learning,
@@ -11,7 +11,7 @@ export default function Home() {
       rewarding job that has given me memories and friendships forever. Now, I am pursuing my
       dreams and going into coding full-time! I particular am intersted in fullstack developing in JS or Python.
       </p>
-      <img src="./images/Kevin-Bugusky.jpg" alt="Kevin Bugusky in a suit"/>
-    </div>
+      <img id="kev-img" src="./images/Kevin-Bugusky.jpg" alt="Kevin Bugusky in a suit"/>
+    </React.Fragment>
   );
 }
