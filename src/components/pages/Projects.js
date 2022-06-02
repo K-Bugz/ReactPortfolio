@@ -1,7 +1,12 @@
 import React from 'react';
 import ProjectCard from './ProjectCard';
 
-
+const pro0 = {
+  title: 'Connected',
+  link: "https://connected-jobsearch-engine.herokuapp.com/",
+  img: './images/Connected.png',
+  des: 'This was my last group project at UT!',
+};
 const pro1 = {
   title: 'G.O.A.T Scale',
   link: "https://devjontaylor.github.io/wing-map/",
@@ -56,6 +61,7 @@ export default function Projects() {
     <React.Fragment>
       <h1>My projects!</h1>
       <div className='BoxOfCards'>
+        <ProjectCard {...pro0}></ProjectCard>
         <ProjectCard {...pro1}></ProjectCard>
         {/* <ProjectCard title={pro1.title} link={pro1.link} des={pro1.des} img={pro1.img}></ProjectCard> */}
         <ProjectCard {...pro2}></ProjectCard>
