@@ -5,7 +5,7 @@ const pro0 = {
   title: 'Connected',
   link: "https://connected-jobsearch-engine.herokuapp.com/",
   img: './images/Connected.png',
-  des: 'This was my last group project at UT!',
+  des: 'This was my last group project at UT! We created a jobseeking site for jr. devs that scrapes jobs from numerous sites!',
 };
 const pro1 = {
   title: 'G.O.A.T Scale',
